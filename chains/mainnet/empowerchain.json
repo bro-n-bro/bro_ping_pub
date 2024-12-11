@@ -1,0 +1,37 @@
+{
+    "chain_name": "Empower",
+    "registry_name": "empower",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.empowerchain.bronbro.io"},
+	      {
+        "address": "https://rest-empowerchain.ecostake.com:443",
+        "provider": "ecostake"
+      },
+            {
+        "address": "https://empower.api.stakevillage.net",
+        "provider": "Stake Village"
+      }
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.empowerchain.bronbro.io"},
+	      {
+        "address": "https://rpc-empowerchain.ecostake.com:443",
+        "provider": "ecostake"
+      },
+            {
+        "address": "https://empower.rpc.stakevillage.net:443",
+        "provider": "Stake Village"
+      }
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "empower",
+    "logo": "/logos/empower.png",
+    "assets": [{
+        "base": "umpwr",
+        "symbol": "MPWR",
+        "exponent": "6"
+    }]
+}

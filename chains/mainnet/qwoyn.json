@@ -1,0 +1,22 @@
+{
+    "chain_name": "qwoyn",
+    "registry_name": "qwoyn",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.qwoyn.bronbro.io"}
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.qwoyn.bronbro.io"}
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "",
+    "logo": "/logos/qwoyn.png",
+    "assets": [{
+        "base": "uqwoyn",
+        "symbol": "QWOYN",
+        "exponent": "6",
+        "logo": "/logos/qwoyn.png"
+    }]
+}

@@ -1,0 +1,27 @@
+{
+    "chain_name": "Stargaze",
+    "registry_name": "stargaze",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.stargaze.bronbro.io"}
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.stargaze.bronbro.io"}
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "stars",
+    "logo": "/logos/stargaze.png",
+    "assets": [{
+        "base": "ustars",
+        "symbol": "stars",
+        "exponent": "6",
+        "coingecko_id": "stargaze", 
+        "logo": "/logos/akash.png"
+    }],
+        "socials": {
+        "website": "https://www.stargaze.zone/",
+        "twitter": "https://twitter.com/StargazeZone"
+      }
+}

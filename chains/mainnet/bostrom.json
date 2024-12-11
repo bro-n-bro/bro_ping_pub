@@ -1,0 +1,32 @@
+{
+    "chain_name": "bostrom",
+    "registry_name": "bostrom",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.bostrom.bronbro.io"},
+	      {
+        "address": "https://lcd.bostrom.cybernode.ai",
+        "provider": "cybercongress"
+      }
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.bostrom.bronbro.io"},
+	      {
+        "address": "https://rpc.bostrom.cybernode.ai",
+        "provider": "cybercongress"
+      }
+
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "bostrom",
+    "logo": "/logos/bostrom.png",
+    "assets": [{
+        "base": "boot",
+        "symbol": "BOOT",
+        "exponent": "0",
+        "coingecko_id": "bostrom", 
+        "logo": "/logos/bostrom.png"
+    }]
+}

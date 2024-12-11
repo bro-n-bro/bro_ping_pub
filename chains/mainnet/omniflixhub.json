@@ -1,0 +1,23 @@
+{
+    "chain_name": "Omniflix Hub",
+    "registry_name": "omniflix",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.omniflix.bronbro.io"}
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.omniflix.bronbro.io"}
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "omniflix",
+    "logo": "/logos/omniflix.png",
+    "assets": [{
+        "base": "uflix",
+        "symbol": "FLIX",
+        "exponent": "6",
+        "coingecko_id": "omniflix-network", 
+        "logo": "/logos/omniflix.png"
+    }]
+}

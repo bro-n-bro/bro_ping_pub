@@ -1,0 +1,23 @@
+{
+    "chain_name": "side-testnet",
+    "registry_name": "side-testnet",
+    "api": [
+        {"address": "https://side-testnet.api.kjnodes.com"}
+    ],
+    "rpc": [
+        {"address": "https://side-testnet.rpc.kjnodes.com"}
+    ],
+    "features": ["dashboard", "governance", "blocks", "tx", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "side",
+    "logo": "/logos/side.png",
+    "assets": [{
+        "base": "uside",
+        "symbol": "SIDE",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/side.png"
+    }]
+}

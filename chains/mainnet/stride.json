@@ -1,0 +1,23 @@
+{
+    "chain_name": "stride",
+    "registry_name": "stride",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.stride.bronbro.io"}
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.stride.bronbro.io"}
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "stride",
+    "logo": "/logos/stride.png",
+    "assets": [{
+        "base": "ustrd",
+        "symbol": "STRD",
+        "exponent": "6",
+        "coingecko_id": "stride", 
+        "logo": "/logos/stride.png"
+    }]
+}

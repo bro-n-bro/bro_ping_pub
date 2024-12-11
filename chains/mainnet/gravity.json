@@ -1,0 +1,38 @@
+{
+    "chain_name": "Gravity Bridge",
+    "registry_name": "gravitybridge",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.g-bridge.bronbro.io"},
+	      {
+        "address": "https://rest.lavenderfive.com:443/gravitybridge",
+        "provider": "Lavender.Five Nodes \ud83d\udc1d"
+      },
+      {
+        "address": "https://gravity-api.polkachu.com",
+        "provider": "Polkachu"
+      }
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.g-bridge.bronbro.io"},
+      {
+        "address": "https://rpc.lavenderfive.com:443/gravitybridge",
+        "provider": "Lavender.Five Nodes \ud83d\udc1d"
+      },
+      {
+        "address": "https://gravity-rpc.polkachu.com",
+        "provider": "Polkachu"
+      }
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "gravity",
+    "logo": "/logos/gravity.png",
+    "assets": [{
+        "base": "graviton",
+        "symbol": "GRAV",
+        "exponent": "0",
+        "logo": "/logos/gravity.png"
+    }]
+}

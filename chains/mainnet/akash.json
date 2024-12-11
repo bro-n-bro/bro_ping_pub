@@ -1,0 +1,33 @@
+{
+    "chain_name": "akash",
+    "registry_name": "akash",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.akash.bronbro.io"},
+	{"address": "https://akash-api.polkachu.com","provider": "Polkachu"},
+        {"address": "https://rest-akash.ecostake.com","provider": "ecostake"}
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.akash.bronbro.io"},
+	      {
+        "address": "https://akash-rpc.polkachu.com",
+        "provider": "Polkachu"
+      },
+            {
+        "address": "https://rpc-akash.ecostake.com:443",
+        "provider": "ecostake"
+      }
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "akash",
+    "logo": "/logos/akash.png",
+    "assets": [{
+        "base": "uakt",
+        "symbol": "AKT",
+        "exponent": "6",
+        "coingecko_id": "akash-network", 
+        "logo": "/logos/akash.png"
+    }]
+}

@@ -1,0 +1,31 @@
+{
+    "chain_name": "agoric",
+    "registry_name": "agoric",
+    "api": [
+        {"address": "https://lcd.agoric.bronbro.io", "provider": "Bro_n_Bro"},
+	{"address": "https://api.agoric.nodestake.top","provider": "NodeStake"},
+	{
+        "address": "https://agoric-api.polkachu.com",
+        "provider": "Polkachu"
+      }
+    ],
+    "rpc": [
+        {"address": "https://rpc.agoric.bronbro.io", "provider": "Bro_n_Bro"},
+	{"address": "https://rpc.agoric.nodestake.top","provider": "NodeStake"},
+	{"address": "https://agoric-rpc.polkachu.com","provider": "Polkachu"}
+
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "agoric",
+    "logo": "/logos/agoric.png",
+    "assets": [{
+        "base": "ubld",
+        "symbol": "BLD",
+        "exponent": "6",
+        "coingecko_id": "agoric", 
+        "logo": "/logos/agoric.png"
+    }]
+}

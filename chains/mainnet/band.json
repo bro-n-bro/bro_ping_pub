@@ -1,0 +1,39 @@
+{
+    "chain_name": "band",
+    "registry_name": "bandchain",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.band.bronbro.io"},
+     {
+        "address": "https://laozi1.bandchain.org/api",
+        "provider": "bandprotocol"
+      },
+      {
+        "address": "https://api-bandchain-ia.cosmosia.notional.ventures/",
+        "provider": "Notional"
+      }
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.band.bronbro.io"},
+      {
+        "address": "http://rpc.laozi1.bandchain.org:80",
+        "provider": "bandprotocol"
+      },
+      {
+        "address": "https://rpc-bandchain-ia.cosmosia.notional.ventures/",
+        "provider": "Notional"
+      }
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "band",
+    "logo": "/logos/band.png",
+    "assets": [{
+        "base": "uband",
+        "symbol": "BAND",
+        "exponent": "6",
+        "coingecko_id": "band-protocol", 
+        "logo": "/logos/band.png"
+    }]
+}

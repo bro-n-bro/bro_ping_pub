@@ -1,0 +1,23 @@
+{
+    "chain_name": "picasso",
+    "registry_name": "picasso",
+    "api": [
+        {"address": "https://lcd.centauri.bronbro.io"}
+    ],
+    "rpc": [
+        {"address": "https://rpc.centauri.bronbro.io"}
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "pica",
+    "logo": "/logos/pica.svg",
+    "assets": [{
+        "base": "ppica",
+        "symbol": "PICA",
+        "exponent": "12",
+        "coingecko_id": "picasso", 
+        "logo": "/logos/pica.svg"
+    }]
+}

@@ -1,0 +1,40 @@
+{
+    "chain_name": "dymension",
+    "registry_name": "dymension",
+    "api": [
+        {"provider": "Bro_n_Bro", "address": "https://lcd.dymension.bronbro.io"},
+            {
+        "address": "https://dymension.api.kjnodes.com:443",
+        "provider": "kjnodes.com 🦄"
+      },
+            {
+        "address": "https://rest.lavenderfive.com:443/dymension",
+        "provider": "Lavender.Five Nodes 🐝"
+      }
+
+    ],
+    "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.dymension.bronbro.io"},
+      {
+        "address": "https://dymension.rpc.kjnodes.com:443",
+        "provider": "kjnodes.com 🦄"
+      },
+            {
+        "address": "https://rpc.lavenderfive.com:443/dymension",
+        "provider": "Lavender.Five Nodes 🐝"
+      }
+    ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "dym",
+    "logo": "/logos/dymension.png",
+    "assets": [{
+        "base": "adym",
+        "symbol": "DYM",
+        "exponent": "18",
+        "coingecko_id": "dymension", 
+        "logo": "/logos/dymension.png"
+    }]
+}

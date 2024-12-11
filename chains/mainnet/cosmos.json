@@ -2,25 +2,28 @@
     "chain_name": "cosmos",
     "registry_name": "cosmoshub",
     "api": [
+	{"provider": "Bro_n_Bro", "address": "https://lcd.cosmoshub.bronbro.io"},
         {"provider": "cosmos.directory", "address": "https://rest.cosmos.directory/cosmoshub"},
         {"provider": "publicnode", "address": "https://cosmos-rest.publicnode.com"},
         {"provider": "silknode", "address": "https://cosmos.api.silknodes.io"}
     ],
     "rpc": [
+        {"provider": "Bro_n_Bro", "address": "https://rpc.cosmoshub.bronbro.io"},
         {"provider": "icycro", "address": "https://cosmos-rpc.icycro.org"}, 
         {"provider": "dragonstake", "address": "https://rpc.cosmos.dragonstake.io"}, 
         {"provider": "Golden Ratio Staking", "address": "https://rpc-cosmoshub.goldenratiostaking.net"}
     ],
+    "features": ["dashboard", "blocks", "tx", "governance", "staking", "ibc", "cosmwasm", "uptime", "parameters", "consensus", "supply"],
     "sdk_version": "0.45.1",
     "coin_type": "118",
     "min_tx_fee": "800",
     "addr_prefix": "cosmos",
-    "logo": "/logos/cosmos.svg",
+    "logo": "/logos/cosmos.png",
     "assets": [{
         "base": "uatom",
         "symbol": "ATOM",
         "exponent": "6",
         "coingecko_id": "cosmos", 
-        "logo": "/logos/cosmos.svg"
+        "logo": "/logos/cosmos.png"
     }]
 }

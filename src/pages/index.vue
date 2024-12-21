@@ -19,7 +19,7 @@ const chains = computed(() => {
     const lowercaseKeywords = keywords.value.toLowerCase();
 
     return Object.values(dashboard.chains).filter(
-      (x: ChainConfig) => x.chainName.toLowerCase().indexOf(lowercaseKeywords) > -1 
+      (x: ChainConfig) => x.chainName.toLowerCase().indexOf(lowercaseKeywords) > -1
       || x.prettyName.toLowerCase().indexOf(lowercaseKeywords) > -1
     );
   } else {
@@ -40,8 +40,8 @@ const chainStore = useBlockchain()
 <template>
   <div class="">
     <div class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2">
-      <div class="w-16 rounded-full">
-        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
+      <!-- <div class="w-16 rounded-full">
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 150.000000 132.000000"
           preserveAspectRatio="xMidYMid meet">
           <g transform="translate(0.000000,132.000000) scale(0.100000,-0.100000)"
@@ -63,6 +63,9 @@ const chainStore = useBlockchain()
       </div>
       <h1 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
         {{ $t('pages.title') }}
+      </h1> -->
+      <h1 class="text-primary text-3xl md:!text-6xl font-bold">
+        <img class="w-50" src="/src/assets/logo.svg">
       </h1>
     </div>
     <div class="text-center text-base">

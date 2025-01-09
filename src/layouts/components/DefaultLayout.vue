@@ -79,7 +79,7 @@ dayjs()
       class="w-64 fixed z-50 left-0 top-0 bottom-0 overflow-auto bg-base-100 border-r border-gray-100 dark:border-gray-700"
       :class="{ block: sidebarShow, 'hidden xl:!block': !sidebarShow }"
     >
-      <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
+      <div class="flex justify-center mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/" class="flex items-center">
 	  <img class="w-30 h-12" src="../../assets/logo.svg" />
         </RouterLink>
@@ -141,7 +141,7 @@ dayjs()
               {{ item?.badgeContent }}
             </div>
           </div>
-          <div class="collapse-content">            
+          <div class="collapse-content">
             <div v-for="(el, key) of item?.children" class="menu bg-base-100 w-full !p-0">
               <RouterLink
                 v-if="isNavLink(el)"
@@ -209,7 +209,7 @@ dayjs()
           </div>
           <div
             v-if="item?.badgeContent"
-            class="badge badge-sm text-white border-none" 
+            class="badge badge-sm text-white border-none"
             :class="item?.badgeClass"
           >
             {{ item?.badgeContent }}
@@ -297,7 +297,7 @@ dayjs()
         <div class="flex-1 w-0"></div>
 
         <!-- <NavSearchBar />-->
-        <NavBarI18n class="hidden md:!inline-block" />
+        <!-- <NavBarI18n class="hidden md:!inline-block" /> -->
         <NavbarThemeSwitcher class="!inline-block" />
         <NavbarSearch class="!inline-block" />
         <NavBarWallet />

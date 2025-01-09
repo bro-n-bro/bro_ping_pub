@@ -69,9 +69,7 @@ const chainStore = useBlockchain()
       </h1>
     </div>
     <div class="text-center text-base">
-      <p class="mb-1">
-        {{ $t('pages.slogan') }}
-      </p>
+      <p class="mb-1" v-html="$t('pages.slogan')"></p>
     </div>
     <div
       v-if="dashboard.status !== LoadingStatus.Loaded"
